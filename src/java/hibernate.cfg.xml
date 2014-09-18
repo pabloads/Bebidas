@@ -8,5 +8,14 @@
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">root</property>
     <property name="hibernate.show_sql">true</property>
+    <mapping class="modelo.CategoriaProduto"/>
+    <mapping class="modelo.Cliente"/>
+    <mapping class="modelo.Compra"/>
+    <mapping class="modelo.Distribuidora"/>
+    <mapping class="modelo.Endereco"/>
+    <mapping class="modelo.Endereco"/>
+    <mapping class="modelo.ItemProduto"/>
+    <mapping class="modelo.Produto"/>
+    <mapping class="modelo.Usuario"/>
   </session-factory>
 </hibernate-configuration>
