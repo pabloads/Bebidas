@@ -7,11 +7,13 @@
 package dao;
 
 import modelo.Cliente;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author Pablo Rocha
  */
+@Repository
 public class daoCliente extends DaoGenerico<Cliente, Long>{
     
 }

@@ -8,6 +8,7 @@ package dao;
 import java.io.Serializable;
 import java.util.List;
 import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 import util.HibernateUtil;
 
 /**
@@ -15,7 +16,8 @@ import util.HibernateUtil;
  * @author Pablo Rocha
  */
 public abstract class DaoGenerico<T, ID extends Serializable> {
-
+    
+    @Autowired
     private Session sessao;
 
     public Session getSessao() {
