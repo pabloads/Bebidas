@@ -6,6 +6,8 @@
 
 package dao;
 
+import modelo.Cliente;
+
 /**
  *
  * @author Pablo Rocha
