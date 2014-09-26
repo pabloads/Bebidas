@@ -9,6 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="inicial.css"/>
         <title>Cadastro de Cliente</title>
     </head>
     <body>
