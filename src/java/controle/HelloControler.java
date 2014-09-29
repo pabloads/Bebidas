@@ -8,6 +8,7 @@ package controle;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.portlet.ModelAndView;
 
 /**
  *
@@ -20,6 +21,8 @@ public class HelloControler {
 // 		String message = "Welcome to Spring MVC 4.0!";
 // 		return new ModelAndView("view", "message", message);
 // 	}
+    
+    
 
     @RequestMapping("/")
     public String printHelloWorld(Model model) {
